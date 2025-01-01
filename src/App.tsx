@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import componentLogo from './assets/component.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -9,24 +10,21 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="https://discord.gg/24czpdUy5q" target="_blank">
+          <img src={componentLogo} className="logo" alt="Component" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>COMPONENT</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => (window.location.href = 'https://discord.gg/24czpdUy5q')}>
+          Our Discord
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          Protection you can trust.
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Join our DISCORD above to get started.
       </p>
     </>
   )
