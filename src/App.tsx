@@ -18,9 +18,6 @@ function App() {
           Protection you can trust.
         </p>
       </div>
-      <p className="read-the-docs">
-        Join our DISCORD above to get started.
-      </p>
     </>
   )
 }
