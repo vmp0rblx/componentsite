@@ -25,7 +25,7 @@
 }
 
 .logo.component:hover {
-  filter: drop-shadow(0 0 4em #2b6ceeff); /* Enhanced glow effect */
+  filter: drop-shadow(0 0 2em #2b6ceeff); /* Enhanced glow effect */
 }
 
 @keyframes logo-spin {
