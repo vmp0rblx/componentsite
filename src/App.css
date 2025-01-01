@@ -17,6 +17,9 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.logo.component:hover {
+  filter: drop-shadow(0 0 2em #2b6cee);
+}
 
 @keyframes logo-spin {
   from {
@@ -28,7 +31,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
+  a:nth-of-type(2) .logo.component {
     animation: logo-spin infinite 20s linear;
   }
 }
