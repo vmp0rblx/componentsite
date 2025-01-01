@@ -11,14 +11,21 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 4em #646cffcc); /* Enhanced glow effect */
 }
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 4em #61dafbcc); /* Enhanced glow effect */
 }
+
+.logo.component {
+  animation: logo-spin infinite 5s linear; /* Added spin animation */
+}
+
 .logo.component:hover {
-  filter: drop-shadow(0 0 2em #2b6cee);
+  filter: drop-shadow(0 0 4em #2b6ceeff); /* Enhanced glow effect */
 }
 
 @keyframes logo-spin {
@@ -31,8 +38,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo.component {
-    animation: logo-spin infinite 20s linear;
+  .logo.component {
+    animation: logo-spin infinite 5s linear;
   }
 }
 
